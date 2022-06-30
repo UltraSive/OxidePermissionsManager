@@ -54,7 +54,7 @@ namespace Oxide.Plugins
         }
 		
 		[Command("userrevokeperms")]
-        void RevokeUser(string user, string perms)
+        void revokeUser(string user, string perms)
         {
 			permsArray = findPermissions(perms);
 
